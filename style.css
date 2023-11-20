@@ -1,0 +1,46 @@
+body {
+    background-color: yellow;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    display: block;
+}
+h1 {
+    text-align: center;
+}
+.links {
+    display: block;
+}
+.web-content {
+    display: flex;
+    column-gap: 50px;
+}
+.right-side {
+    margin-top: 50px;
+}
+#graduation {
+    height: auto;
+    width: 350px;
+}
+
+.left-side {
+    margin-top: 50px;
+    margin-left: 350px;
+    max-width: 25%;
+    font-size: 20px;
+   
+}
+/* the buttons at the top of the screen*/
+.top-buttons {
+    text-align: center;
+}
+.top-buttons button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30px;
+    border-radius: 8px;
+    margin-right: 30px;
+    font-size: 16px;
+}
