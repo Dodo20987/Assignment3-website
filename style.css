@@ -2,34 +2,59 @@ body {
     background-color: yellow;
     font-family: "Roboto", sans-serif;
 }
-a {
+.links, a {
     display: block;
 }
 h1 {
     text-align: center;
 }
-.links {
-    display: block;
-}
 .web-content {
     display: flex;
     column-gap: 50px;
-}
-.right-side {
-    margin-top: 50px;
-}
-.photo {
-    height: auto;
-    width: 350px;
 }
 
 .left-side {
     margin-top: 50px;
     margin-left: 350px;
     max-width: 25%;
-    font-size: 20px;
-   
 }
+.right-side {
+    margin-top: 50px;
+}
+.left-side-photo {
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.left-side,
+.right-side {
+  flex: 1;
+}
+.photo {
+    height: auto;
+    width: 350px;
+}
+.hobbies {
+    margin-top: -10px;
+    height: auto;
+    width: 250px;
+}
+.left-side p {
+    font-size: 20px;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: auto; 
+    margin-bottom: 20px; 
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 20px;
+}
+
+
+
+
+
 /* the buttons at the top of the screen*/
 .top-buttons {
     text-align: center;
