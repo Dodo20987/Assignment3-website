@@ -1,0 +1,1 @@
+this website is a brief biography about myself, it contains details about my hobbies, projects, work experience, and future goals. Link to website: https://dodo20987.github.io/Assignment3-website/. The tech stack used for this project is html, css, and a little bit of javascript.
