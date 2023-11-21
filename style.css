@@ -69,3 +69,8 @@ h1 {
     margin-right: 30px;
     font-size: 16px;
 }
+
+.projects {
+    height: auto;
+    width: 350px;
+}
